@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.navbar{
+    text-align: center;
+    background-color: black;
+    height: 180px;
+   
+}
+
+.navbar ul{
+    display: inline-flex    ;
+    list-style: none;
+    
+    
+    
+}
+
+.navbar ul li{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 80px;
+   
+}
+
+.navbar ul li a{
+    color: whitesmoke;
+    
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+.navbar ul :hover{
+    color: red;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.icerik{
+   display: none;
+}
+
+.navbar ul li:hover .icerik{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: -80px;
+    width: 247px;
+    
+}
+
+.navbar ul li:hover .icerik ul{
+    display: block;
+}
+
+.navbar ul li:hover .ilet{
+display: block;
+position: absolute;
+color: black;
+
+}
+
+.navbar ul li:hover .ilet ul{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: -80px;
+    width: 267px;
+    
+    transition: 1s;
+}
+
+.ilet{
+    display: none;
+}
+
+
+.hak{
+    display: none;
+}
+
+.navbar ul li:hover .hak ul{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: -80px;
+    width: 350px;
+    
+    transition: 1s;
+
+}
+
+.navbar ul li:hover .hak{
+    display: block;
+    position: absolute;
+   
+    
+    }
+
+    .navbar ul li .hak ul li a:hover{
+        color: black;
+    }
+
